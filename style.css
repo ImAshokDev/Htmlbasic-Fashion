@@ -1,11 +1,35 @@
-                                                                .header-section {}
-                                                            
-                                                            .contact-num {
-                                                                font-size: 20px;
-                                                                text-align: left;
-                                                                text-top: 20px
-                                                            }
-                                                            
-                                                            .header-block {
-                                                                font-family: Segoe UI;
-                                                                text-align: cen
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-section{
+    height: 180px;
+    background: rgb(108, 201, 105);
+    
+}
+.menu-section{
+    height: 170px;
+    background: rgb(185, 185, 82);
+}
+
+.slider-section{
+    height: 350px;
+    background: orchid;
+    
+}
+.about-section{
+    height: 300px;
+    background: burlywood;
+}
+.video-section{
+    height: 150px;
+    background: lightgreen;
+}
+.price-section{
+    height: 500px;
+    background: #228eb3;
+}
+.footer-section{
+    height: 30px;
+    background: darkgrey;
+}
