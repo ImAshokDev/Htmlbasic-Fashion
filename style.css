@@ -1,35 +1,71 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.header-section{
-    height: 180px;
+
+.header-section {
+    margin: 0;
+    height: 60px;
     background: rgb(108, 201, 105);
-    
 }
-.menu-section{
+
+.header-section .contact-num {
+    margin: 0;
+    width: 30%;
+    float: left;
+}
+
+.header-section .header-block {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.header-section .header-book {
+    margin: 0;
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+.header-book button {
+    margin: 10px 15px 0 0;
+    border: 20px;
+    width: 130px;
+    height: 40px;
+    border: 2px;
+    border-color: rgb(165, 94, 7);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-section {
     height: 170px;
     background: rgb(185, 185, 82);
 }
 
-.slider-section{
+.slider-section {
     height: 350px;
     background: orchid;
-    
 }
-.about-section{
+
+.about-section {
     height: 300px;
     background: burlywood;
 }
-.video-section{
+
+.video-section {
     height: 150px;
     background: lightgreen;
 }
-.price-section{
+
+.price-section {
     height: 500px;
     background: #228eb3;
 }
-.footer-section{
+
+.footer-section {
     height: 30px;
     background: darkgrey;
 }
