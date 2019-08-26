@@ -232,7 +232,7 @@
  .video-section .video-block {
      width: 100%;
      height: 300px;
-     background-image: url(./07.jpg);
+     background-image: url(./08.jpg);
      background-repeat: no-repeat;
      opacity: 0.9;
  }
@@ -317,7 +317,7 @@
  }
  
  .price-card2 {
-     margin: 0 0 0 4.5%;
+     margin: 0 0 0 4%;
      width: 30%;
      height: 270px;
      float: left;
@@ -347,7 +347,7 @@
  }
  
  .price-carts .price-card3 {
-     margin: 0 0 0 4.5%;
+     margin: 0 0 0 4%;
      width: 30%;
      height: 270px;
      float: left;
@@ -372,11 +372,17 @@
      padding-left: 15px;
  }
  
- .price-card3 span {
-     text-align: right;
+ .price-card3 p span {
+     margin: 0 20px;
+     text-align: end;
  }
  
  .footer-section {
      height: 30px;
      background: darkgrey;
+     text-align: right;
+ }
+ 
+ .footer-section p {
+     padding: 5px 100px 5px 0;
  }
