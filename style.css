@@ -230,34 +230,35 @@
  
  .video-section .video-block {
      width: 100%;
-     height: 300px;
+     height: 250px;
+     padding-top: 70px;
      background-image: url(./08.jpg);
      background-repeat: no-repeat;
      opacity: 0.8;
  }
  
  .video-block button {
-     margin: 0 0 0 350px;
+     margin: 0 0 0 48.2%;
      box-sizing: border-box;
      display: block;
-     width: 80px;
-     height: 80px;
+     width: 60px;
+     height: 60px;
      padding-top: 14px;
      padding-left: 8px;
      line-height: 20px;
-     border: 6px solid rgb(245, 242, 242);
+     border: 6px solid rgb(14, 11, 11);
      border-radius: 50%;
      color: #f5f5f5;
      text-align: center;
      text-decoration: none;
-     background-color: rgb(255, 214, 127);
+     background-color: rgb(242, 248, 247);
      font-size: 20px;
      font-weight: bold;
-     transform: all 0.3s ease;
+    
  }
  
  .video-block button:hover {
-     background-color: aliceblue;
+     background-color: rgb(25, 240, 25);
      box-shadow: 0 0 10px rebeccapurple;
      text-shadow: 0px 0px 10px rgb(255, 255, 100, 1);
  }
@@ -269,7 +270,7 @@
      font-size: 50px;
      font-weight: bolder;
      color: #ffffff;
-     padding-top: 60px;
+     
  }
  
  .video-block p {
