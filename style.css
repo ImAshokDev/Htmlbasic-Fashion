@@ -128,25 +128,25 @@
  }
  
  .img1 {
-     background-image: url(./01.jpg);
+     background-image: url(./images/01.jpg);
      background-repeat: no-repeat;
      background-position: top;
  }
  
  .img2 {
-     background-image: url(./02.jpg);
+     background-image: url(./images/02.jpg);
      background-repeat: no-repeat;
      background-position: top;
  }
  
  .img3 {
-     background-image: url(./03.jpg);
+     background-image: url(./images/03.jpg);
      background-repeat: no-repeat;
      background-position: top;
  }
  
  .img4 {
-     background-image: url(./04.jpg);
+     background-image: url(./images/04.jpg);
      background-repeat: no-repeat;
      background-position: right;
  }
@@ -172,7 +172,7 @@
      width: 400px;
      height: 500px;
      float: left;
-     background-image: url(./06.jpg);
+     background-image: url(./images/06.jpg);
      background-repeat: no-repeat;
  }
  
@@ -238,7 +238,7 @@
      width: 100%;
      height: 230px;
      padding-top: 70px;
-     background-image: url(./10.jpg);
+     background-image: url(./images/07.jpg);
      background-repeat: no-repeat;
      background-position: center;
      opacity: 0.8;
