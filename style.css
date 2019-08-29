@@ -18,7 +18,14 @@
      margin-top: 25px;
      font-size: 14px;
      font-family: Arial, Helvetica, sans-serif;
-     padding-left: 50px;
+     padding-left: 30px;
+ }
+ 
+ .contact-num p i {
+     margin: 0;
+     padding: 0 8px;
+     color: rgb(255, 136, 0);
+     font-size: 15px;
  }
  
  .header-section .header-block {
