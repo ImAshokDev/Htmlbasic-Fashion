@@ -315,7 +315,7 @@ body {
 .price-section {
   margin: 0 auto;
   width: 100%;
-  height: 450px;
+  height: 500px;
 }
 
 .price-section .price-block {
@@ -382,12 +382,32 @@ body {
   color: white;
 }
 
+.picks-section {
+  height: 270px;
+  background: #f0f0f0;
+  padding: 25px 0;
+}
+
+.picks-section .picks-container {
+  height: 270px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.picks-section .picks-container img {
+  width: 100%;
+  height: 270px;
+}
+
 .footer-section {
   height: 50px;
   background: #ccc6c6;
 }
 
 .footer-section p {
+  margin: 0;
   padding-top: 15px;
   text-align: center;
   font-size: 18px;
