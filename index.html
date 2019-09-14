@@ -248,7 +248,7 @@
             </div>
             <div class="chat-block">
                 <h1>Get in Touch</h1>
-                <div class="custom-select" style="width:200px;">
+                <div class="custom-select">
                     <select>
                         <option value="1">Choose a preferred Service</option>
                         <option value="2">Portraits</option>
@@ -257,10 +257,16 @@
                     </select>
                 </div>
                 <div>
-                    <input type="text" name="date" placeholder="Select a Day">
+                    <input type="text" placeholder="Select a Day">
+                    <div>
+                        <i class="far fa-calendar-check"></i>
+                    </div>
                 </div>
-                <div>
-                    <textarea name="msg" placeholder="Message"></textarea>
+                <div class="message">
+                    <textarea name="text" placeholder="Message"></textarea>
+                    <div>
+                        <i class="far fa-comment-alt"></i>
+                    </div>
                 </div>
                 <div>
                     <button>submit</button>
@@ -268,6 +274,7 @@
             </div>
         </div>
     </div>
+
     <div class="footer-section">
         <h6>Follow Me:</h6>
         <i class="fab fa-instagram"></i>

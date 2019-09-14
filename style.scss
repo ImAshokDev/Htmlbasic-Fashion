@@ -645,31 +645,71 @@ body {
                 width: 480px;
                 height: 50px;
                 border: 0;
+                color: white;
+                outline: none;
                 option {
                     font-size: 16px;
                     color: white;
+                    outline: none;
+                }
+                option:hover {
+                    color: rgb(255, 145, 2);
                 }
             }
-            input {
-                background-color: rgb(85, 83, 83);
-                margin: 0 0 15px 0;
-                width: 480px;
-                height: 50px;
-                border: 0;
+            select:hover {
+                cursor: pointer;
+                color: rgb(255, 145, 2);
             }
-            input::placeholder {
-                font-size: 16px;
-                color: white;
+            div {
+                input {
+                    background-color: rgb(85, 83, 83);
+                    margin: 0 0 15px 0;
+                    width: 430px;
+                    height: 50px;
+                    border: 0;
+                    color: white;
+                    font-size: 18px;
+                    outline: none;
+                    padding: 0 0 0 50px;
+                }
+                input::placeholder {
+                    font-size: 18px;
+                    color: white;
+                }
+                div {
+                    margin: -50px 0 50px 20px;
+                    i {
+                        color: white;
+                        font-size: 18px;
+                    }
+                }
             }
-            textarea {
-                background-color: rgb(85, 83, 83);
-                margin: 0 0 20px 0;
-                width: 480px;
-                height: 130px;
-                border: 0;
+            .message {
+                textarea[name=text] {
+                    background-color: rgb(85, 83, 83);
+                    margin: 10px 0 20px 0;
+                    width: 430px;
+                    height: 130px;
+                    outline: none;
+                    color: white;
+                    padding: 20px 0 0 50px;
+                    border: 0;
+                    font-size: 18px;
+                }
+                textarea::placeholder {
+                    font-size: 18px;
+                    color: white;
+                }
+                div {
+                    margin: -153px 0 0 20px;
+                    i {
+                        color: white;
+                        font-size: 18px;
+                    }
+                }
             }
             button {
-                margin: 0;
+                margin: 150px 0 0 0;
                 width: 185px;
                 height: 65px;
                 border: 2px solid rgb(255, 145, 2);
@@ -678,11 +718,13 @@ body {
                 font-family: 'Bree Serif', serif;
                 color: white;
                 transition-duration: 0.5s;
+                outline: none;
             }
             button:hover {
                 background: #252525;
                 color: rgb(255, 145, 2);
                 border: 3px solid rgb(255, 145, 2);
+                cursor: pointer;
             }
         }
     }
